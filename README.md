@@ -4,7 +4,7 @@
 >
 > **Attribution:** Built upon the foundation of `ollama-monitor` by **Yusuf Emre ALBAYRAK**.
 
-![LMM Dashboard](./assets/LMM-Dashboard.png)
+![LMM Dashboard](./assets/LMM-dashboard.png)
 
 **LMM** is a power-user tool for managing local AI resources on Windows. It goes beyond simple API monitoring to track raw VRAM usage, monitor external AI processes (like Handy AI or Python scripts), and provides a "Game Mode" to instantly free up GPU resources. The need of this fork came from the fact that every tool I had found up to that point did not have easy ways to manage models via a singular GUI. The options were either very limited monitoring applications, like the original source of this fork or were extremely hardcoded to only OLLAMA or CLI based stats. I wanted something GUI based that could create profiles of multiple models, load and unload those profiles or individual models with a single button click, add new models from a drop down menu, or uninstall models. I'm sure if I tried hard enough I would find this tool somewhere, but I found a good starting point and built from there. Hopefully someone else finds this tool helpful. I have plans for features to come and more integrations for secondary AI agent and/or software based agents to be added outside of Ollama like Handy AI voice to text agent https://handy.computer/ A template is in the works so other people can either do a pull request and add those agents themself to this project, or you can submit a request and I will do my best to get that software based agent integrated. As the logic works now, it's using Windows task manager to essentially watch for the .exe of any software based agent you set up to be monitored by watching the GPU usage statistics.
 
@@ -20,11 +20,11 @@
 
 | Dashboard | Model Manager |
 | :---: | :---: |
-| ![Dashboard](./assets/LMM-Dashboard.png) | ![Model Manager](./assets/LMM-ModelManager.png) |
+| ![Dashboard](./assets/LMM-dashboard.png) | ![Model Manager](./assets/LMM-model-manager.png) |
 
 | Settings | Tray Menu |
 | :---: | :---: |
-| ![Settings](./assets/LMM-Settings.png) | ![Tray](./assets/LMM-TaskbarRightClick.png) |
+| ![Settings](./assets/LMM-settings.png) | ![Tray](./assets/taskbar-right-click.png) |
 
 ## 📋 Requirements
 
