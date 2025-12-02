@@ -21,10 +21,14 @@
 | Dashboard | Model Manager |
 | :---: | :---: |
 | ![Dashboard](./assets/LMM-dashboard.png) | ![Model Manager](./assets/LMM-model-manager.png) |
+| **Settings** | **Profiles (WIP)** |
+| ![Settings](./assets/LMM-settings.png) | ![Profiles](./assets/LMM-WIP-Profiles.png) |
 
-| Settings | Tray Menu |
-| :---: | :---: |
-| ![Settings](./assets/LMM-settings.png) | ![Tray](./assets/taskbar-right-click.png) |
+### System Tray States
+
+| Idle | Hover | Context Menu |
+| :---: | :---: | :---: |
+| ![Idle](./assets/taskbar.png) | ![Hover](./assets/taskbar-hover.png) | ![Menu](./assets/taskbar-right-click.png) |
 
 ## 📋 Requirements
 
