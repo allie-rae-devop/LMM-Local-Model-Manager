@@ -32,11 +32,12 @@
 
 ## 📋 Requirements
 
-*   **OS:** Windows 10/11
+*   **OS:** Windows 10/11 (Linux possible but not tested; plans for full implementation down the road).
 *   **Hardware:** NVIDIA GPU (Required for VRAM stats).
 *   **Software:** 
     *   Python 3.10+
     *   [Ollama](https://github.com/jmorganca/ollama) installed and configured.
+    *   *Note: All Python library dependencies (sv_ttk, nvidia-ml-py, etc.) are handled via `requirements.txt`.*
 
 ## 🚀 Installation
 
@@ -55,6 +56,10 @@
     ```powershell
     python main.py
     ```
+
+### 🚧 Coming Soon
+*   **Portable .exe:** A standalone executable is in the works for a single-file download.
+*   **CLI Distribution:** Plans for `wget` or package manager installation methods.
 
 ## 📖 Usage
 
